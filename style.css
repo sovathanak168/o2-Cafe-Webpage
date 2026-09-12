@@ -28,7 +28,7 @@ header{
 
 .navbar a:hover{
     color: hsl(162, 54%, 86%);
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .navbar ul{
@@ -40,6 +40,7 @@ header{
 
 .navbar a{
     color: hsla(0, 0%, 0%, 0.923);
+    font-weight: bold;
     text-decoration: none;
     margin: 8px;
     padding: 5px;
