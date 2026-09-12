@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -12,12 +12,94 @@
     <header>
         <h1>o2 Cafe</h1>
     </header>
+    <div class="contact-page">
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">o2</a></li>
+                <li><a href="menu.html">menu</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+        </nav>
 
-    <main>
-        <section>
+        <main>
+            <section class="contact">
+
+                <form class="contact-form"
+                action="https://formspree.io/f/meaqwked"
+                method="post">
+
+                    <div class="name-email">
+                        <div>
+                            <label for="name">Name:</label>
+                            <input type="text"
+                                id="name"
+                                name="name"
+                                placeholder="Gojo"
+                                required>
+                        </div>
+
+                        <div>
+                            <label for="email">Email:</label>
+                            <input type="email"
+                                id="email"
+                                name="email"
+                                placeholder="satoru123@example.com"
+                                required>
+                        </div>
+
+                    </div>
+
+                    <div class="phone-number">
+                        <label for="number">Phone Number:</label>
+                        <input type="tel"
+                            placeholder="012-345-6789"
+                            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                            id="number"
+                            name="phone"
+                            required>
+                    </div>
+
+                    <div class="inquiries">
+                        <label for="inquiries">Comment:</label>
+                        <textarea id="inquiries" name="inquiries"></textarea>
+                    </div>
+
+                    <div class="input-submit">
+                        <input type="reset">
+                        <input type="submit">
+                    </div>
+                </form>
+
+            </section>
+        </main>
+    </div>
+
+    <footer>
+            <h3>Tap for more content!</h3>
             
-        </section>
-    </main>
+        <div class="icons">
+            <a href="https://www.facebook.com/profile.php?id=100083154190926"> 
+                <i class="fa-brands fa-square-facebook fa-3x fa-width-auto" style="color: hsl(180, 100%, 45%);"></i>
+            </a>
+            <a href="mailto:nak3454@gmail.com">
+                <i class="fa-solid fa-square-envelope fa-3x" style="color: hsl(180, 100%, 45%);"></i>
+            </a>
+        </div>
+
+        <div class="opening-hours">
+            <h4>Opening Hours</h4>
+                <ul>
+                    <li>Sunday: 6am - 9pm</li>
+                    <li>Monday: 6am - 9pm</li>
+                    <li>Tuesday: 6am - 9pm</li>
+                    <li>Wednesday: 6am - 9pm</li>
+                    <li>Thursday: 6am - 9pm</li>
+                    <li>Friday: 6am - 9pm</li>
+                    <li>Saturday: 6am - 9pm</li>
+                </ul>
+        </div>
+
+    </footer>
         
 
 </body>
