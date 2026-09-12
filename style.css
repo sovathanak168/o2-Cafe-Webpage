@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+
+}
+header{
+    text-align: center;
+    background-color: hsl(0, 67%, 18%);
+    color: hsl(114, 36%, 89%);
+    padding: 10px;
+    margin: 0px;
+
+}
+
+.navbar{
+    background-color: transparent;
+    transition: background-color 0.5s ease, padding 0.5s ease;
+    padding: 5px 0;
+}
+
+.navbar:hover{
+    background-color: hsl(0, 67%, 17%);
+    padding: 10px;
+}
+
+.navbar:hover a{
+    color: hsl(0, 0%, 90%);
+}
+
+.navbar a:hover{
+    color: hsl(162, 54%, 86%);
+    font-size: 20px;
+}
+
+.navbar ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.navbar a{
+    color: hsla(0, 0%, 0%, 0.923);
+    text-decoration: none;
+    margin: 8px;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.navbar li{
+    float: left;
+}
+
+.o2-logo{
+    height: 800px;
+    background-image: url(images/Artboard\ 1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.social{
+    display: flex;
+    gap: 12px;
+    margin: 10px;
+    align-items: flex-start;
+}
+
+#fb-post{
+    flex: 0 0 500px;
+}
+
+#map{
+    flex: 1;
+}
+#map iframe{
+    width: 100%;
+}
