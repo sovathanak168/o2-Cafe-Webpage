@@ -101,6 +101,15 @@ header{
     align-items: flex-start;
 }
 
+.reset-submit input{
+    padding: 10px;
+    background-color: hsl(0, 0%, 0%);
+    color: hsl(0, 0%, 100%);
+    border: 2px solid hsl(37, 43%, 47%);
+    border-radius: 13px;
+
+}
+
 #fb-post{
     flex: 0 0 500px;
 }
