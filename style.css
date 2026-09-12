@@ -183,6 +183,10 @@ header{
     vertical-align: top;
 }
 
+.contact-form input::placeholder, .contact-form textarea::placeholder{
+    color: rgb(206, 206, 206);
+}
+
 .icons{
     align-items: center;
     display: flex;
